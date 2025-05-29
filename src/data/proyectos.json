@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "titulo": "Landing Page de Cafeter\u00eda",
+    "descripcion": "Dise\u00f1o de una landing page responsive para una cafeter\u00eda moderna.",
+    "tecnologias": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Gestor de Tareas",
+    "descripcion": "Aplicaci\u00f3n web para crear, editar y eliminar tareas.",
+    "tecnologias": [
+      "React",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Portafolio Personal",
+    "descripcion": "Portafolio con secciones de proyectos, experiencia y contacto.",
+    "tecnologias": [
+      "React",
+      "React Router",
+      "CSS"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Consumo de API P\u00fablica",
+    "descripcion": "Visualizaci\u00f3n de publicaciones desde JSONPlaceholder usando React.",
+    "tecnologias": [
+      "React",
+      "Fetch API"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "EcoMarket",
+    "descripcion": "Marketplace de productos ecológicos con sistema de geolocalización de vendedores.",
+    "tecnologias": [
+      "React",
+      "Firebase",
+      "Leaflet"
+    ] 
+  },
+  {
+    "id": 8,
+    "titulo": "Calculadora Científica",
+    "descripcion": "Calculadora con funciones científicas avanzadas.",
+    "tecnologias": [
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ]
+  }
+ 
+]
