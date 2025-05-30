@@ -8,7 +8,7 @@ import {
   FaFilm,
   FaArrowLeft
 } from 'react-icons/fa';
-import '/styles/Sidebar.css';
+import '/src/styles/Sidebar.css';
 
 const Sidebar = () => {
   return (

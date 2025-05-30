@@ -1,5 +1,5 @@
 import React from "react";
-import "/styles/Perfil.css";
+import "/src/styles/Perfil.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit } from "react-icons/fa";
 
 const Diego = () => {

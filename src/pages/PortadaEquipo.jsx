@@ -1,7 +1,7 @@
 // src/pages/PortadaEquipo.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import "/styles/PortadaEquipo.css"; // Se importa el nuevo archivo de estilos
+import "/src/styles/PortadaEquipo.css"; // Se importa el nuevo archivo de estilos
 
 const integrantes = [
   {
