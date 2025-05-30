@@ -13,6 +13,7 @@ const Clima = () => {
       try {
         const respuesta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}&units=metric&lang=es`);
         if (!respuesta.ok) throw new Error('No se pudo obtener el clima');
+        setError(null); // Limpiar error previo
         const data = await respuesta.json();
         setDatosClima(data);
       } catch (err) {
