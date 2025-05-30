@@ -2,7 +2,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import PortadaEquipo from './pages/PortadaEquipo';
-import Diego from './pages/Diego';
 import Flavio from './pages/Flavio';
 import Agustin from './pages/Agustin';
 import Sergio from './pages/Sergio';
@@ -21,7 +20,6 @@ function App() {
         <main style={{ marginLeft: '220px', padding: '2rem', flex: 1 }}>
           <Routes>
             <Route path="/" element={<PortadaEquipo />} />
-            <Route path="/diego" element={<Diego />} />
             <Route path="/flavio" element={<Flavio />} />
             <Route path="/agustin" element={<Agustin />} />
             <Route path="/sergio" element={<Sergio />} />
