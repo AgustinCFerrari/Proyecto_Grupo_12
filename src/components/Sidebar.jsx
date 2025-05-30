@@ -8,7 +8,7 @@ import {
   FaFilm,
   FaArrowLeft
 } from 'react-icons/fa';
-import '/styles/Sidebar.css';
+import '/src/styles/Sidebar.css';
 
 const Sidebar = () => {
   return (
@@ -17,7 +17,6 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li><FaHome /><Link to="/">Equipo</Link></li>
-          <li><FaUser /><Link to="/diego">Diego Arias</Link></li>
           <li><FaUser /><Link to="/flavio">Flavio Benítez</Link></li>
           <li><FaUser /><Link to="/agustin">Agustín Ferrari</Link></li>
           <li><FaUser /><Link to="/sergio">Sergio Godoy</Link></li>

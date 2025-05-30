@@ -6,10 +6,9 @@ function Bitacora() {
         <li>✔️ [10/05/2025] Inicio del proyecto: estructura base creada con Vite + React</li>
         <li>✔️ [11/05/2025] Asignación de roles:
           <ul>
-            <li>Diego Arias - Coordinación General y documentación</li>
-            <li>Flavio Benítez - Maquetación, Sidebar y Portada</li>
+            <li>Sergio Godoy - Coordinación General y documentación</li>
+            <li>Flavio Benítez -  Sidebar, portada y secciones</li>
             <li>Agustín Ferrari - React Router, lógica y estados</li>
-            <li>Sergio Godoy - Componentes reutilizables y consumo de datos</li>
           </ul>
         </li>
         <li>✔️ [12/05/2025] Se integró React Router con rutas dinámicas para cada sección</li>
