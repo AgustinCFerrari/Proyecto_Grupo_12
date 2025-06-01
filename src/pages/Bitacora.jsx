@@ -3,31 +3,37 @@ function Bitacora() {
     <div style={{ padding: "2rem" }}>
       <h2>📅 Bitácora del Proyecto</h2>
       <ul>
+        <li>✔️ [09/05/2025] Reunión inicial de planificación: definición de objetivos, stack tecnológico y distribución preliminar de tareas</li>
         <li>✔️ [10/05/2025] Inicio del proyecto: estructura base creada con Vite + React</li>
-        <li>✔️ [11/05/2025] Asignación de roles:
+        <li>✔️ [11/05/2025] Asignación formal de roles:
           <ul>
-            <li>Sergio Godoy - Coordinación General y documentación</li>
-            <li>Flavio Benítez -  Sidebar, portada y secciones</li>
-            <li>Agustín Ferrari - React Router, lógica y estados</li>
+            <li>Sergio Godoy – Coordinación general, documentación, control de avances</li>
+            <li>Flavio Benítez – Sidebar, navegación, portada del equipo</li>
+            <li>Agustín Ferrari – React Router, lógica y manejo de estados globales</li>
           </ul>
         </li>
-        <li>✔️ [12/05/2025] Se integró React Router con rutas dinámicas para cada sección</li>
-        <li>✔️ [14/05/2025] Implementación de la sección Presentación con tarjetas por integrante</li>
-        <li>✔️ [15/05/2025] Desarrollo de perfiles individuales: nombre, habilidades, tecnologías, proyectos ficticios</li>
-        <li>✔️ [18/05/2025] Incorporación de archivo JSON con películas y renderizado dinámico</li>
-        <li>✔️ [20/05/2025] Consumo de API pública de clima en tiempo real</li>
-        <li>✔️ [22/05/2025] Agregado del Sidebar fijo con íconos y enlaces a todas las secciones</li>
-        <li>✔️ [24/05/2025] Mejora UX/UI: reorganización visual, centrado, tipografías, contraste y responsividad</li>
-        <li>✔️ [26/05/2025] Componentes reutilizables: tarjetas, cabeceras, contenedores</li>
+        <li>✔️ [12/05/2025] Se integró React Router con rutas dinámicas para todas las secciones</li>
+        <li>✔️ [13/05/2025] Se agregó el logo del grupo generado con IA al Sidebar</li>
+        <li>✔️ [14/05/2025] Desarrollo de la sección Portada con mini tarjetas de presentación (nombre + imagen)</li>
+        <li>✔️ [15/05/2025] Desarrollo de secciones individuales con habilidades, tecnologías, íconos y proyectos personales</li>
+        <li>✔️ [18/05/2025] Creación de archivo `peliculas.json` con 20 películas e implementación del listado dinámico</li>
+        <li>✔️ [20/05/2025] Integración de API pública del clima y diseño de componentes de visualización</li>
+        <li>✔️ [22/05/2025] Mejora visual del Sidebar: íconos, hover y diseño responsive fijo para desktop</li>
+        <li>✔️ [24/05/2025] Revisión UX/UI: contraste, espaciado, centrado de contenedores, organización en Flexbox</li>
+        <li>✔️ [25/05/2025] Componentización final de tarjetas, cabeceras, y contenedores reutilizables</li>
+        <li>✔️ [28/05/2025] Revisión cruzada entre integrantes, resolución de bugs y prueba de responsividad completa</li>
         <li>✔️ [29/05/2025] Publicación en GitHub con historial limpio de commits</li>
-        <li>✔️ [29/05/2025] Deploy en Vercel funcionando correctamente</li>
+        <li>✔️ [29/05/2025] Deploy final del proyecto en Vercel funcionando correctamente</li>
       </ul>
 
-      <h3>Organización y Metodología</h3>
+      <h3>🛠️ Organización y Metodología</h3>
       <p>
-        El equipo trabajó con metodología ágil, usando grupos de WhatsApp y reuniones breves por Discord para dividir tareas.
-        Cada integrante se hizo cargo de su sección, validando integración con el resto del equipo en puntos de control diarios.
-        El enfoque fue colaborativo, priorizando la claridad del código y la experiencia de usuario.
+        Desde el comienzo se acordó usar una metodología ágil, organizando las tareas mediante reuniones por Discord y coordinación vía WhatsApp. 
+        Cada integrante asumió responsabilidades claras pero con espíritu colaborativo, apoyando a los demás en pruebas cruzadas, debug y feedback de diseño. 
+      </p>
+      <p>
+        El proyecto fue planificado para cumplir todos los requisitos técnicos: SPA con React Router, responsividad, integración de APIs,
+        uso de datos JSON locales, y una interfaz amigable con componentes reutilizables. La publicación en GitHub y Vercel fue parte de los objetivos iniciales y se alcanzó con éxito.
       </p>
     </div>
   );
