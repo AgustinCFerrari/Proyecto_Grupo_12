@@ -12,8 +12,11 @@ import '/src/styles/Sidebar.css';
 
 const Sidebar = () => {
   return (
+    
     <div className="sidebar">
-      <h2>Desarrollo Web</h2>
+      <div className="logo-sidebar">
+        <img src="/images/Logo.jpg" alt="Logo Grupo Dev Frontend" />
+      </div>
       <nav>
         <ul>
           <li><FaHome /><Link to="/">Equipo</Link></li>
@@ -26,9 +29,6 @@ const Sidebar = () => {
           <li><FaBook /><Link to="/bitacora">Bitácora</Link></li>
         </ul>
       </nav>
-      <div className="volver">
-        <FaArrowLeft /><Link to="/">Volver al Home</Link>
-      </div>
     </div>
   );
 };

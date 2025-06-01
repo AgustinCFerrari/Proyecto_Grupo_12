@@ -24,6 +24,7 @@ function Bitacora() {
         <li>✔️ [28/05/2025] Revisión cruzada entre integrantes, resolución de bugs y prueba de responsividad completa</li>
         <li>✔️ [29/05/2025] Publicación en GitHub con historial limpio de commits</li>
         <li>✔️ [29/05/2025] Deploy final del proyecto en Vercel funcionando correctamente</li>
+        <li>✔️ [01/06/2025] Se agregó el logo del grupo generado con IA al Sidebar</li>
       </ul>
 
       <h3>🛠️ Organización y Metodología</h3>

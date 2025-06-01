@@ -80,8 +80,16 @@
   color: #fdd835;
 }
 
-.volver {
-  margin-top: 1rem;
+.logo-sidebar {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
+
+.logo-sidebar img {
+  max-width: 140px;
+  height: auto;
+  border-radius: 12px;
+}
+
